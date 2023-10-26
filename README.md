@@ -1,5 +1,19 @@
 # gfdl-model
- N48 GFDL
+N48 GFDL
+
+Basic three steps:
+ 
+(1) Creat ancillary files:
+/g/data/w40/dxd565/gfdl-model/experiments/coralsea/create.ancil.files.coralsea.com<br />
+ 
+(2) Setup and start the run:<br />
+/g/data/w40/dxd565/gfdl-model/experiments/coralsea/gfdl-run.cold.start.coralsea.com<br />
+ 
+(3) Change time step. The first 10yrs I run the model with a shorter time step and then switch to a longer time step to be faster: <br />
+/g/data/w40/dxd565/gfdl-model/experiments/gfdl.restart.run.com [RUN-NUNBER]<br />
+ 
+ 
+
 
 Simply setup GFDL CM2 N48 simple model for interbasin and other experiments
 
